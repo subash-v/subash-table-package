@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  position: relative;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+th {
+  /* text-align: left; */
+  position: sticky;
+  top: -1px;
+  /* Don't forget this, required for the stickiness */
+  z-index: 2;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+td {
+  font-size: 14px;
+}
